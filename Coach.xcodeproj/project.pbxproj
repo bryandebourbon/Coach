@@ -11,6 +11,7 @@
 		2EA6B1C62BC1B86500EBEBAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA6B1C52BC1B86500EBEBAE /* ContentView.swift */; };
 		2EA6B1C82BC1B86700EBEBAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA6B1C72BC1B86700EBEBAE /* Assets.xcassets */; };
 		2EA6B1CB2BC1B86700EBEBAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA6B1CA2BC1B86700EBEBAE /* Preview Assets.xcassets */; };
+		2EA6B1D22BC1BAEF00EBEBAE /* ApplePayButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA6B1D12BC1BAEF00EBEBAE /* ApplePayButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,9 @@
 		2EA6B1C52BC1B86500EBEBAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2EA6B1C72BC1B86700EBEBAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EA6B1CA2BC1B86700EBEBAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2EA6B1D12BC1BAEF00EBEBAE /* ApplePayButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePayButtonView.swift; sourceTree = "<group>"; };
+		2EA6B1D32BC1BEA100EBEBAE /* Coach.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Coach.entitlements; sourceTree = "<group>"; };
+		2EA6B1D42BC1BF0400EBEBAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,11 @@
 		2EA6B1C22BC1B86500EBEBAE /* Coach */ = {
 			isa = PBXGroup;
 			children = (
+				2EA6B1D42BC1BF0400EBEBAE /* Info.plist */,
+				2EA6B1D32BC1BEA100EBEBAE /* Coach.entitlements */,
 				2EA6B1C32BC1B86500EBEBAE /* CoachApp.swift */,
 				2EA6B1C52BC1B86500EBEBAE /* ContentView.swift */,
+				2EA6B1D12BC1BAEF00EBEBAE /* ApplePayButtonView.swift */,
 				2EA6B1C72BC1B86700EBEBAE /* Assets.xcassets */,
 				2EA6B1C92BC1B86700EBEBAE /* Preview Content */,
 			);
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EA6B1C62BC1B86500EBEBAE /* ContentView.swift in Sources */,
+				2EA6B1D22BC1BAEF00EBEBAE /* ApplePayButtonView.swift in Sources */,
 				2EA6B1C42BC1B86500EBEBAE /* CoachApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,12 +277,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Coach/Coach.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Coach/Preview Content\"";
 				DEVELOPMENT_TEAM = VZPMV36P9L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Coach/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -298,12 +308,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Coach/Coach.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Coach/Preview Content\"";
 				DEVELOPMENT_TEAM = VZPMV36P9L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Coach/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
